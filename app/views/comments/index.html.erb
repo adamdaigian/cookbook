@@ -1,0 +1,10 @@
+<h1>Comments</h1>
+<p>Find me in app/views/comments/index.html.erb</p>
+
+<% @comments.each do |comment| %>
+  <p>
+    <%= link_to(comment.title, "/recipe/#{comment.id}") %> -
+    <%= link_to("Edit", "/comments/edit/#{comment.id}") %> -
+    <%= link_to("Delete", "/recipes/destroy/#{recipe.id}", :method => :delete) %>
+  </p>
+<% end %>

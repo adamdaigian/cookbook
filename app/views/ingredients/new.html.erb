@@ -1,0 +1,12 @@
+<h1>Ingredients#new</h1>
+<p>Find me in app/views/ingredients/new.html.erb</p>
+
+<%= form_for @ingredient, :url => {:action => "create"} do |f| %>  <!--#''-->
+  <label>Title</label>
+  <%= f.text_field :title %><br>
+
+  <label>Content</label>
+  <%= f.text_area :content %><br>
+
+  <%= f.submit %>
+<% end %>

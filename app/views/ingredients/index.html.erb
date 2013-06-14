@@ -1,0 +1,10 @@
+<h1>Ingredients</h1>
+<p>Find me in app/views/ingredients/index.html.erb</p>
+
+<% @ingredients.each do |ingredient| %>
+  <p>
+    <%= link_to(ingredient.title, "/ingredient/#{ingredient.id}") %> -
+    <%= link_to("Edit", "/ingredients/edit/#{ingredient.id}") %> -
+    <%= link_to("Delete", "/ingredients/destroy/#{ingredient.id}", :method => :delete) %>
+  </p>
+<% end %>
