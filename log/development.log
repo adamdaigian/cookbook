@@ -8362,3 +8362,4 @@ SyntaxError (/Users/adamdaigian/Dropbox/WDI/w3d2/cookbook/app/controllers/applic
   Rendered /Users/adamdaigian/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
   Rendered /Users/adamdaigian/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /Users/adamdaigian/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+Connecting to database specified by database.yml
